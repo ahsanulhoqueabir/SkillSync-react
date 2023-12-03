@@ -1,0 +1,92 @@
+[
+  {
+    "icon": "https://github.com/ahsanul-database/fakeDB/blob/main/icons/it-systems.png",
+    "jobField": "Information Technology",
+    "availablePosts": 100,
+    "uniqueID": "IT123"
+  },
+  {
+    "icon": "https://github.com/ahsanul-database/fakeDB/blob/main/icons/protection.png",
+    "jobField": "Healthcare",
+    "availablePosts": 120,
+    "uniqueID": "HC456"
+  },
+  {
+    "icon": "https://github.com/ahsanul-database/fakeDB/blob/main/icons/business-and-finance.png",
+    "jobField": "Finance",
+    "availablePosts": 85,
+    "uniqueID": "FIN789"
+  },
+  {
+    "icon": "https://github.com/ahsanul-database/fakeDB/blob/main/icons/learning.png",
+    "jobField": "Education",
+    "availablePosts": 90,
+    "uniqueID": "EDU101"
+  },
+  {
+    "icon": "https://github.com/ahsanul-database/fakeDB/blob/main/icons/engineering.png",
+    "jobField": "Engineering",
+    "availablePosts": 110,
+    "uniqueID": "ENG202"
+  },
+  {
+    "icon": "https://github.com/ahsanul-database/fakeDB/blob/main/icons/social-media.png",
+    "jobField": "Marketing",
+    "availablePosts": 95,
+    "uniqueID": "MKT303"
+  },
+  {
+    "icon": "https://github.com/ahsanul-database/fakeDB/blob/main/icons/shopping-cart.png",
+    "jobField": "Sales",
+    "availablePosts": 130,
+    "uniqueID": "SAL404"
+  },
+  {
+    "icon": "https://github.com/ahsanul-database/fakeDB/blob/main/icons/select.png",
+    "jobField": "Human Resources",
+    "availablePosts": 80,
+    "uniqueID": "HR505"
+  },
+  {
+    "icon": "https://github.com/ahsanul-database/fakeDB/blob/main/icons/design.png",
+    "jobField": "Creative Arts",
+    "availablePosts": 100,
+    "uniqueID": "ART606"
+  },
+  {
+    "icon": "https://github.com/ahsanul-database/fakeDB/blob/main/icons/science.png",
+    "jobField": "Science and Research",
+    "availablePosts": 85,
+    "uniqueID": "SCI707"
+  },
+  {
+    "icon": "https://github.com/ahsanul-database/fakeDB/blob/main/icons/customer-service.png",
+    "jobField": "Customer Service",
+    "availablePosts": 120,
+    "uniqueID": "CS808"
+  },
+  {
+    "icon": "https://github.com/ahsanul-database/fakeDB/blob/main/icons/manufacturing.png",
+    "jobField": "Manufacturing and Production",
+    "availablePosts": 95,
+    "uniqueID": "MFG909"
+  },
+  {
+    "icon": "https://github.com/ahsanul-database/fakeDB/blob/main/icons/auction.png",
+    "jobField": "Legal",
+    "availablePosts": 110,
+    "uniqueID": "LAW1010"
+  },
+  {
+    "icon": "https://github.com/ahsanul-database/fakeDB/blob/main/icons/real-estate.png",
+    "jobField": "Real Estate",
+    "availablePosts": 80,
+    "uniqueID": "RE1111"
+  },
+  {
+    "icon": "https://github.com/ahsanul-database/fakeDB/blob/main/icons/agreement.png",
+    "jobField": "Retail",
+    "availablePosts": 100,
+    "uniqueID": "RET1212"
+  }
+]

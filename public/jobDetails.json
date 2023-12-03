@@ -1,0 +1,146 @@
+[
+  {
+    "id": "1",
+    "title": "Software Engineer",
+    "description": "Exciting opportunity for a skilled software engineer to join a dynamic team.",
+    "salary": "$80,000 - $100,000",
+    "date": "2023-12-03",
+    "logo":"https://tech-innovations.io/wp-content/uploads/2022/11/Techinnovations-Logo-Color.png",
+    "company": "Tech Innovators Inc.",
+    "location": "San Francisco, CA",
+    "remote": "true",
+    "fullTime": "false",
+    "responsibility": "Develop and maintain software applications, collaborate with cross-functional teams.",
+    "requirements": "Bachelor's degree in Computer Science, proficiency in Java and Python.",
+    "contact": {
+      "phone": "123-456-7890",
+      "email": "careers@techinnovators.com"
+    }
+  },
+  {
+    "id": "2",
+    "title": "Marketing Specialist",
+    "description": "Join our marketing team and drive impactful campaigns for global brand recognition.",
+    "salary": "$60,000 - $80,000",
+    "date": "2023-12-05",
+    "company": "Global Marketing Solutions",
+    "location": "New York, NY",
+    "logo":"https://static.wixstatic.com/media/1302f4_6bf09ae9fe054976897d8cccd9f403df~mv2.png",
+    "remote": "false",
+    "fullTime": "false",
+    "responsibility": "Plan and execute marketing strategies, analyze campaign performance.",
+    "requirements": "Bachelor's degree in Marketing, 3+ years of marketing experience.",
+    "contact": {
+      "phone": "987-654-3210",
+      "email": "hr@globalmarketing.com"
+    }
+  },
+  {
+    "id": "3",
+    "title": "Data Analyst",
+    "description": "Analytical minds wanted! Join our data team and uncover valuable insights.",
+    "salary": "$70,000 - $90,000",
+    "date": "2023-12-08",
+    "company": "Insightful Data Solutions",
+    "location": "Chicago, IL",
+    "logo":"https://i0.wp.com/techboard.com.au/wp-content/uploads/2018/08/cohort1-ids.png?fit=1071%2C250&ssl=1",
+    "remote": "true",
+    "fullTime": "false",
+    "responsibility": "Analyze data sets, create visualizations, and present findings to stakeholders.",
+    "requirements": "Bachelor's degree in Statistics or related field, proficiency in data analysis tools.",
+    "contact": {
+      "phone": "567-890-1234",
+      "email": "info@insightfuldata.com"
+    }
+  },
+  {
+    "id": "4",
+    "title": "Graphic Designer",
+    "description": "Bring creativity to life! Join our design team and shape the visual identity of our brand.",
+    "salary": "$50,000 - $70,000",
+    "date": "2023-12-10",
+    "company": "Creative Designs Co.",
+    "location": "Los Angeles, CA",
+    "logo": "https://creativedesigns.co.in/wp-content/uploads/2018/04/logo-final-20199-copykkk-min.png",
+    "remote": "true",
+    "fullTime": "true",
+    "responsibility": "Create visually appealing designs for various projects, collaborate with cross-functional teams.",
+    "requirements": "Bachelor's degree in Graphic Design, proficiency in Adobe Creative Suite.",
+    "contact": {
+      "phone": "345-678-9012",
+      "email": "design@creativedesigns.com"
+    }
+  },
+  {
+    "id": "5",
+    "title": "Financial Analyst",
+    "description": "Join our finance team and contribute to strategic decision-making through in-depth financial analysis.",
+    "salary": "$75,000 - $95,000",
+    "date": "2023-12-12",
+    "company": "Finance Dynamics Ltd.",
+    "location": "Houston, TX",
+    "logo": "https://images.glints.com/unsafe/glints-dashboard.s3.amazonaws.com/company-logo/55acbb6cca9974b0854210bebc82bcce.jpg",
+    "remote": "false",
+    "fullTime": "true",
+    "responsibility": "Conduct financial forecasting, budgeting, and variance analysis.",
+    "requirements": "Bachelor's degree in Finance, CFA or CPA certification preferred.",
+    "contact": {
+      "phone": "789-012-3456",
+      "email": "finance@financedynamics.com"
+    }
+  },
+  {
+    "id": "6",
+    "title": "Human Resources Manager",
+    "description": "Lead our HR team and play a key role in fostering a positive and inclusive work environment.",
+    "salary": "$90,000 - $110,000",
+    "date": "2023-12-15",
+    "logo":"https://www.peoplefirsthr.com/wp-content/uploads/2022/04/PFHR-logo-2021.png",
+    "company": "People First Corp.",
+    "location": "Seattle, WA",
+    "remote": "true",
+    "fullTime": "true",
+    "responsibility": "Oversee recruitment, employee relations, and HR strategy development.",
+    "requirements": "Bachelor's degree in HR or related field, 5+ years of HR management experience.",
+    "contact": {
+      "phone": "234-567-8901",
+      "email": "hrmanager@peoplefirst.com"
+    }
+  },
+  {
+    "id": "7",
+    "title": "Customer Support Specialist",
+    "description": "Join our customer support team and provide exceptional service to our valued customers.",
+    "salary": "$45,000 - $60,000",
+    "date": "2023-12-18",
+    "company": "Support Solutions Inc.",
+    "location": "Austin, TX",
+    "logo": "https://sdvsolutions.us/wp-content/uploads/2021/02/SDV_Logo_RGBFade_NewTag_Final.png",
+    "remote": "true",
+    "fullTime": "true",
+    "responsibility": "Address customer inquiries, troubleshoot issues, and ensure customer satisfaction.",
+    "requirements": "Excellent communication skills, previous customer support experience preferred.",
+    "contact": {
+      "phone": "321-098-7654",
+      "email": "support@supportsolutions.com"
+    }
+  },
+  {
+    "id": "8",
+    "title": "Sales Representative",
+    "description": "Join our dynamic sales team and drive revenue growth through effective sales strategies.",
+    "salary": "$55,000 - $75,000",
+    "date": "2023-12-20",
+    "company": "Sales Dynamics Co.",
+    "location": "Denver, CO",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF0Vuyg5Z1ervuTFab-mY8CWgHcLUzSaW38w&usqp=CAU",
+    "remote": "true",
+    "fullTime": "true",
+    "responsibility": "Generate leads, build relationships, and close sales deals.",
+    "requirements": "Bachelor's degree in Business or related field, previous sales experience preferred.",
+    "contact": {
+      "phone": "876-543-2109",
+      "email": "sales@salesdynamics.com"
+    }
+  }
+]
