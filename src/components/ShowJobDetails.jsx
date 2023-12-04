@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { Link, useLoaderData } from "react-router-dom";
+import { Link, useLoaderData, useNavigation } from "react-router-dom";
 import { JobsContext } from "../App";
 import Lottie from "lottie-react";
 import anim from "../assets/loaderrr.json";
@@ -14,8 +14,14 @@ import {
 } from "@heroicons/react/24/solid";
 import { addToLocalStorage, getFromLocalStorage } from "../utilities/fakedb";
 import { toast } from "react-toastify";
+import LoadingPage from "./LoadingPage";
 
 const ShowJobDetails = () => {
+  const loading = useNavigation();
+    if(loading.state ==='loading')
+    {
+       return  <LoadingPage/>;
+    }
   const AllJobs = useContext(JobsContext).alljobs;
   const item = useLoaderData().params.title;
   const notify = () => toast("Wow so easy !");

@@ -1,12 +1,18 @@
 import Lottie from "lottie-react";
-import { json, useLoaderData } from "react-router-dom";
+import { json, useLoaderData, useNavigation } from "react-router-dom";
 import anim from "../assets/loaderrr.json";
 import dotani from "../assets/dot-ani.json";
 import SingleBlog from "./SingleBlog";
 import { useContext } from "react";
 import { BlogContext } from "../App";
+import LoadingPage from "./LoadingPage";
 
 const Blog = () => {
+  const loading = useNavigation();
+    if(loading.state ==='loading')
+    {
+       return  <LoadingPage/>;
+    }
   const blogs = useContext(BlogContext);
   console.log(blogs);
   return (

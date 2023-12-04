@@ -1,7 +1,13 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigation } from "react-router-dom";
+import LoadingPage from "./LoadingPage";
 
 const SingleBlog = ({ blog }) => {
+  const loading = useNavigation();
+    if(loading.state ==='loading')
+    {
+       return  <LoadingPage/>;
+    }
 const [full,setFull] = useState(false)
 
     const { id, title, image, description,prop } = blog;

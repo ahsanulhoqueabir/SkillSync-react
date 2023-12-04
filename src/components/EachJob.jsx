@@ -1,7 +1,13 @@
 import { CurrencyDollarIcon, MapPinIcon } from "@heroicons/react/24/solid";
-import { Link } from "react-router-dom";
+import { Link, useNavigation } from "react-router-dom";
+import LoadingPage from "./LoadingPage";
 
 const EachJob = ({ job }) => {
+  const loading = useNavigation();
+    if(loading.state ==='loading')
+    {
+       return  <LoadingPage/>;
+    }
   const { title, salary, company, location, logo, remote, fullTime } = job;
   return (
     <div className="p-4 flex flex-col gap-5 text-left bg-blue-100 rounded">

@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { useNavigation } from "react-router-dom";
 
 import {
   ComposedChart,
@@ -12,8 +13,14 @@ import {
   Legend,
   ResponsiveContainer,
 } from "recharts";
+import LoadingPage from "./LoadingPage";
 
 const Statistics = () => {
+  const loading = useNavigation();
+    if(loading.state ==='loading')
+    {
+       return  <LoadingPage/>;
+    }
   const [data, setdata] = useState([]);
   useEffect(() => {
     fetch("https://raw.githubusercontent.com/ahsanul-database/fakeDB/main/marksss.json")

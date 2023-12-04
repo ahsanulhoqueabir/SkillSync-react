@@ -12,12 +12,14 @@ import ShowJobDetails from "./components/ShowJobDetails.jsx";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import BlogDetails from "./components/BlogDetails.jsx";
+import ErrorPage from "./components/ErrorPage.jsx";
 
 const route = createBrowserRouter([
   {
     path: "/",
     element: <App />,
     loader: AllData,
+    errorElement: <ErrorPage/>,
     children: [
       {
         path: "/",

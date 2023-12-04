@@ -6,8 +6,15 @@ import Lottie from "lottie-react";
 import anim from "../assets/loaderrr.json";
 import dotani from "../assets/dot-ani.json";
 import { toast } from "react-toastify";
+import { useNavigation } from "react-router-dom";
+import LoadingPage from "./LoadingPage";
 
 const AppliedJobs = () => {
+  const loading = useNavigation();
+    if(loading.state ==='loading')
+    {
+       return  <LoadingPage/>;
+    }
   const allJobs = useContext(JobsContext).alljobs;
   let appliedJob = [];
   const showJobFromDB = () => {

@@ -1,10 +1,16 @@
-import { Link, useLoaderData } from "react-router-dom";
+import { Link, useLoaderData, useNavigation } from "react-router-dom";
 import img from "../assets/bannerIMG.png";
 import JobCategory from "./JobCategory";
 import FeaturedJobs from "./FeaturedJobs";
 import { useContext, useRef } from "react";
 import { VacContext } from "../App";
+import LoadingPage from "./LoadingPage";
 const Home = () => {
+  const loading = useNavigation();
+    if(loading.state ==='loading')
+    {
+       return  <LoadingPage/>;
+    }
   const allJobsCategory =useContext(VacContext)
   const sec1 = useRef(null)
   const scrollToSection = (elementRef) => {
