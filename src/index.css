@@ -12,5 +12,5 @@
 } */
 
 .myOutlinebtn{
-@apply border-2 border-teal-300 px-3 py-1 bg-none text-sky-400 rounded
+@apply border-2 border-teal-300 px-8 py-1 bg-none text-sky-400 rounded
 }

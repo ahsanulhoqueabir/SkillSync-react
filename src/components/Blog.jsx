@@ -1,11 +1,34 @@
+import Lottie from "lottie-react";
+import { json, useLoaderData } from "react-router-dom";
+import anim from "../assets/loaderrr.json";
+import dotani from "../assets/dot-ani.json";
+import SingleBlog from "./SingleBlog";
+import { useContext } from "react";
+import { BlogContext } from "../App";
 
 const Blog = () => {
-    return (
-        <div>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit ipsam aliquid pariatur omnis! Autem inventore adipisci quas sequi tempora? Ipsa nostrum a reprehenderit earum temporibus accusamus possimus optio, nam magnam quis esse perspiciatis illum, placeat quisquam deserunt consectetur unde laborum id labore ducimus adipisci autem culpa. Facilis placeat, voluptates iure nam minus sapiente maxime, nihil nulla ducimus ratione repellat consectetur autem totam, rerum nobis rem repudiandae aspernatur illum. Nobis praesentium doloremque consequuntur nisi doloribus facere eligendi consequatur quaerat sunt, facilis fugit laborum aperiam ex qui! Quidem eius ex quod illum impedit culpa beatae totam cupiditate modi inventore, nihil temporibus ullam architecto labore libero odit delectus nam id repudiandae illo quis non harum, minus neque? Unde assumenda alias incidunt eum non.</p>
-            
+  const blogs = useContext(BlogContext);
+  console.log(blogs);
+  return (
+    <div>
+      <div className="relative flex items-center justify-center bg-slate-200 h-60  px-10">
+        <h1 className="text-3xl lg:text-5xl font-bold text-center py-10">
+          Blog
+        </h1>
+        <div className="absolute bottom-0 left-0 lg:px-20">
+          <Lottie animationData={anim} className="h-20 lg:h-48"></Lottie>
         </div>
-    );
+        <div className="absolute translate-x-1/2 opacity-40">
+          <Lottie animationData={dotani} className="h-36 lg:h-60"></Lottie>
+        </div>
+      </div>
+      <div className="py-10 lg:px-20 grid md:grid-cols-2 gap-6">
+        {blogs.map((blog) => (
+          <SingleBlog key={blog.id} blog={blog} />
+        ))}
+      </div>
+    </div>
+  );
 };
 
 export default Blog;

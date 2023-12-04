@@ -19,13 +19,20 @@ const AllVacant = async ()=>
     const data = await vacant.json();
     return data;
 }
+const allBlogs = async()=>
+{
+    const allblogs = await fetch('https://raw.githubusercontent.com/ahsanul-database/fakeDB/main/blogP.json')
+    const blogs = await allblogs.json()
+    return blogs;
+}
 
 const AllData = async ()=>
 {
     const allJobs = await AllJobs()
     const allVac = await AllVacant()
+    const allblog = await allBlogs()
 
-    return {allJobs,allVac}
+    return {allJobs,allVac,allblog}
 }
 
 

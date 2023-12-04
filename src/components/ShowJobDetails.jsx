@@ -5,6 +5,7 @@ import Lottie from "lottie-react";
 import anim from "../assets/loaderrr.json";
 import dotani from "../assets/dot-ani.json";
 import {
+  ArrowUturnLeftIcon,
   CalendarDaysIcon,
   CurrencyDollarIcon,
   EnvelopeIcon,
@@ -50,7 +51,9 @@ const ShowJobDetails = () => {
   return (
     <div className="">
       <div className="relative flex items-center justify-center bg-slate-200 h-60  px-10">
-        <h1 className="text-3xl lg:text-5xl font-bold text-center py-10">Job Details</h1>
+        <h1 className="text-3xl lg:text-5xl font-bold text-center py-10">
+          Job Details
+        </h1>
         <div className="absolute bottom-0 left-0 lg:px-20">
           <Lottie animationData={anim} className="h-20 lg:h-48"></Lottie>
         </div>
@@ -79,9 +82,9 @@ const ShowJobDetails = () => {
           </div>
         </div>
         <div className=" rounded-lg p-3 h-full text-sm  lg:w-[35%]">
-          <div className="bg-blue-100 p-3 divide-y-2 divide-gray-400">
+          <div className="bg-blue-100 p-3 divide-y-2  divide-gray-400">
             <p className="font-bold py-4">Job Details</p>
-            <div className=" capitalize  py-5">
+            <div className=" capitalize flex flex-col gap-5 py-5">
               <p className="flex gap-3">
                 <span className="font-bold gap-2 flex items-center flex-row">
                   {" "}
@@ -98,7 +101,7 @@ const ShowJobDetails = () => {
               </p>
               <p className="pt-10 font-bold text-xl">Contact Information</p>
             </div>
-            <div className="py-5">
+            <div className="py-5 flex flex-col gap-5">
               <p className="flex gap-3">
                 <span className="font-bold gap-2 flex items-center flex-row">
                   <PhoneIcon className="text-teal-500 h-5" />
@@ -129,6 +132,11 @@ const ShowJobDetails = () => {
             Apply now
           </Link>
         </div>
+      </div>
+      <div className="m-auto text-center py-10">
+        <Link className="btn mybtn" to="/">
+          <ArrowUturnLeftIcon className="h-5" /> Back to Home{" "}
+        </Link>
       </div>
     </div>
   );

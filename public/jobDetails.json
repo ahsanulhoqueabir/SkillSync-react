@@ -2,14 +2,16 @@
   {
     "id": "1",
     "title": "Software Engineer",
-    "description": "Exciting opportunity for a skilled software engineer to join a dynamic team.",
+    "description": "We are seeking a highly skilled and motivated Software Engineer to join our dynamic team. As a Software Engineer, you will be responsible for designing, developing, and maintaining software solutions that meet the needs of our organization. The ideal candidate should have a strong background in software development, excellent problem-solving skills, and a passion for staying current with emerging technologies. You will collaborate with cross-functional teams, participate in the entire software development lifecycle, and contribute to the design and architecture of cutting-edge applications. If you are a proactive and innovative individual who thrives in a collaborative environment, we encourage you to apply. This is an exciting opportunity to make a significant impact on our projects and contribute to the success of our organization.",
     "salary": "$80,000 - $100,000",
     "date": "2023-12-03",
-    "logo":"https://tech-innovations.io/wp-content/uploads/2022/11/Techinnovations-Logo-Color.png",
+    "logo": "https://tech-innovations.io/wp-content/uploads/2022/11/Techinnovations-Logo-Color.png",
     "company": "Tech Innovators Inc.",
     "location": "San Francisco, CA",
     "remote": "true",
     "fullTime": "false",
+    "experience": "2+ years of software development experience",
+
     "responsibility": "Develop and maintain software applications, collaborate with cross-functional teams.",
     "requirements": "Bachelor's degree in Computer Science, proficiency in Java and Python.",
     "contact": {
@@ -20,14 +22,16 @@
   {
     "id": "2",
     "title": "Marketing Specialist",
-    "description": "Join our marketing team and drive impactful campaigns for global brand recognition.",
+    "description": "We are seeking a dynamic Marketing Specialist to join our team. As a Marketing Specialist, you will play a key role in developing and executing innovative marketing strategies to enhance brand visibility and drive business growth. Responsibilities include conducting market research, crafting compelling content, managing social media campaigns, and analyzing performance metrics. The ideal candidate possesses a creative mindset, excellent communication skills, and a proven track record in implementing successful marketing initiatives. This role requires a strategic thinker who can collaborate effectively with cross-functional teams. If you are passionate about creating impactful marketing campaigns and staying abreast of industry trends, we invite you to apply and contribute to our company's success.",
     "salary": "$60,000 - $80,000",
     "date": "2023-12-05",
     "company": "Global Marketing Solutions",
     "location": "New York, NY",
-    "logo":"https://static.wixstatic.com/media/1302f4_6bf09ae9fe054976897d8cccd9f403df~mv2.png",
+    "logo": "https://static.wixstatic.com/media/1302f4_6bf09ae9fe054976897d8cccd9f403df~mv2.png",
     "remote": "false",
     "fullTime": "false",
+    "experience": "3+ years of marketing experience",
+
     "responsibility": "Plan and execute marketing strategies, analyze campaign performance.",
     "requirements": "Bachelor's degree in Marketing, 3+ years of marketing experience.",
     "contact": {
@@ -38,14 +42,16 @@
   {
     "id": "3",
     "title": "Data Analyst",
-    "description": "Analytical minds wanted! Join our data team and uncover valuable insights.",
+    "description": "We are seeking a skilled Data Analyst to join our dynamic team. The ideal candidate will have a strong analytical mindset, proficiency in data visualization tools, and a keen eye for interpreting complex datasets. Responsibilities include collecting and interpreting data, analyzing results, and providing actionable insights to drive informed business decisions. The successful candidate will collaborate with cross-functional teams, extract meaningful patterns from raw data, and present findings through compelling visualizations and reports. A solid understanding of statistical concepts, data cleansing, and programming languages such as Python or R is desirable. If you thrive in a data-driven environment, possess excellent problem-solving skills, and can effectively communicate insights to non-technical stakeholders, we invite you to apply and contribute to our data-driven decision-making processes.",
     "salary": "$70,000 - $90,000",
     "date": "2023-12-08",
     "company": "Insightful Data Solutions",
     "location": "Chicago, IL",
-    "logo":"https://i0.wp.com/techboard.com.au/wp-content/uploads/2018/08/cohort1-ids.png?fit=1071%2C250&ssl=1",
+    "logo": "https://i0.wp.com/techboard.com.au/wp-content/uploads/2018/08/cohort1-ids.png?fit=1071%2C250&ssl=1",
     "remote": "true",
     "fullTime": "false",
+    "experience": "2+ years of data analysis experience",
+
     "responsibility": "Analyze data sets, create visualizations, and present findings to stakeholders.",
     "requirements": "Bachelor's degree in Statistics or related field, proficiency in data analysis tools.",
     "contact": {
@@ -56,7 +62,7 @@
   {
     "id": "4",
     "title": "Graphic Designer",
-    "description": "Bring creativity to life! Join our design team and shape the visual identity of our brand.",
+    "description": "We are seeking a highly creative Graphic Designer to join our dynamic team. As a Graphic Designer, you will be responsible for conceptualizing and executing visually appealing designs for a variety of projects, including marketing materials, social media content, and branding collateral. The ideal candidate should have a strong portfolio showcasing proficiency in industry-standard design software, a keen eye for detail, and a deep understanding of design principles. Collaboration with cross-functional teams and the ability to translate conceptual ideas into compelling visual assets are essential. Stay abreast of design trends, contribute innovative ideas, and ensure the consistent application of brand guidelines. If you are a passionate and talented Graphic Designer with a flair for creativity, we invite you to bring your skills to our dynamic work environment.",
     "salary": "$50,000 - $70,000",
     "date": "2023-12-10",
     "company": "Creative Designs Co.",
@@ -66,6 +72,8 @@
     "fullTime": "true",
     "responsibility": "Create visually appealing designs for various projects, collaborate with cross-functional teams.",
     "requirements": "Bachelor's degree in Graphic Design, proficiency in Adobe Creative Suite.",
+    "experience": "3+ years of graphic design experience",
+
     "contact": {
       "phone": "345-678-9012",
       "email": "design@creativedesigns.com"
@@ -74,7 +82,7 @@
   {
     "id": "5",
     "title": "Financial Analyst",
-    "description": "Join our finance team and contribute to strategic decision-making through in-depth financial analysis.",
+    "description": "We are seeking a detail-oriented Financial Analyst to join our dynamic team. The ideal candidate will be responsible for analyzing financial data, preparing reports, and providing insights to support strategic decision-making. Key responsibilities include conducting variance analysis, forecasting, and budgeting, as well as collaborating with cross-functional teams to enhance financial performance. The Financial Analyst should possess strong analytical skills, a deep understanding of financial principles, and proficiency in financial modeling and reporting tools. Exceptional communication skills are essential for presenting findings to stakeholders. The successful candidate will contribute to maintaining financial health, identifying opportunities for improvement, and ensuring compliance with financial regulations. A Bachelor's degree in Finance, Accounting, or a related field is required, and professional certifications (e.g., CFA, CPA) are a plus.",
     "salary": "$75,000 - $95,000",
     "date": "2023-12-12",
     "company": "Finance Dynamics Ltd.",
@@ -82,6 +90,8 @@
     "logo": "https://images.glints.com/unsafe/glints-dashboard.s3.amazonaws.com/company-logo/55acbb6cca9974b0854210bebc82bcce.jpg",
     "remote": "false",
     "fullTime": "true",
+    "experience": "4+ years of financial analysis experience",
+
     "responsibility": "Conduct financial forecasting, budgeting, and variance analysis.",
     "requirements": "Bachelor's degree in Finance, CFA or CPA certification preferred.",
     "contact": {
@@ -92,12 +102,14 @@
   {
     "id": "6",
     "title": "Human Resources Manager",
-    "description": "Lead our HR team and play a key role in fostering a positive and inclusive work environment.",
+    "description": "We are seeking an experienced Human Resources Manager to join our dynamic team. The ideal candidate will be responsible for overseeing all aspects of HR operations, including talent acquisition, employee relations, performance management, and compliance. As a Human Resources Manager, you will play a pivotal role in fostering a positive work environment, implementing HR policies, and driving initiatives that enhance employee engagement and development. You should possess strong communication and interpersonal skills, the ability to handle sensitive information with confidentiality, and a comprehensive understanding of HR best practices. If you are a strategic thinker with a proven track record in HR management and are passionate about cultivating a supportive workplace culture, we invite you to apply and contribute to the success and growth of our organization.",
     "salary": "$90,000 - $110,000",
     "date": "2023-12-15",
-    "logo":"https://www.peoplefirsthr.com/wp-content/uploads/2022/04/PFHR-logo-2021.png",
+    "logo": "https://www.peoplefirsthr.com/wp-content/uploads/2022/04/PFHR-logo-2021.png",
     "company": "People First Corp.",
     "location": "Seattle, WA",
+    "experience": "5+ years of HR management experience",
+
     "remote": "true",
     "fullTime": "true",
     "responsibility": "Oversee recruitment, employee relations, and HR strategy development.",
@@ -110,7 +122,7 @@
   {
     "id": "7",
     "title": "Customer Support Specialist",
-    "description": "Join our customer support team and provide exceptional service to our valued customers.",
+    "description": "We are seeking a dedicated Customer Support Specialist to join our team. As a Customer Support Specialist, you will be the primary point of contact for our customers, addressing inquiries, resolving issues, and providing exceptional service. Responsibilities include managing customer queries via phone, email, and chat, ensuring timely and accurate responses. The ideal candidate possesses excellent communication skills, a customer-centric mindset, and the ability to navigate and resolve various customer concerns. Strong problem-solving skills, patience, and attention to detail are essential. Previous experience in customer support or a related field is preferred. If you thrive in a dynamic environment and are passionate about delivering outstanding customer experiences, we invite you to apply for this role.",
     "salary": "$45,000 - $60,000",
     "date": "2023-12-18",
     "company": "Support Solutions Inc.",
@@ -118,6 +130,8 @@
     "logo": "https://sdvsolutions.us/wp-content/uploads/2021/02/SDV_Logo_RGBFade_NewTag_Final.png",
     "remote": "true",
     "fullTime": "true",
+    "experience": "2+ years of customer support experience",
+
     "responsibility": "Address customer inquiries, troubleshoot issues, and ensure customer satisfaction.",
     "requirements": "Excellent communication skills, previous customer support experience preferred.",
     "contact": {
@@ -128,7 +142,7 @@
   {
     "id": "8",
     "title": "Sales Representative",
-    "description": "Join our dynamic sales team and drive revenue growth through effective sales strategies.",
+    "description": "We are seeking a dynamic and results-driven Sales Representative to join our growing team. The ideal candidate will be responsible for establishing and cultivating strong client relationships, identifying new business opportunities, and achieving sales targets. The Sales Representative will demonstrate excellent communication and negotiation skills, with a focus on understanding client needs and delivering tailored solutions. Responsibilities include presenting product offerings, conducting market research, and collaborating with the sales team to achieve collective goals. The successful candidate should be self-motivated, adaptable, and possess a proven track record in sales. This role offers a competitive salary, commission structure, and opportunities for professional growth within our innovative and collaborative work environment. If you are passionate about sales and eager to contribute to our company's success, we encourage you to apply.",
     "salary": "$55,000 - $75,000",
     "date": "2023-12-20",
     "company": "Sales Dynamics Co.",
@@ -136,6 +150,8 @@
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF0Vuyg5Z1ervuTFab-mY8CWgHcLUzSaW38w&usqp=CAU",
     "remote": "true",
     "fullTime": "true",
+    "experience": "2+ years of sales represtative experience",
+
     "responsibility": "Generate leads, build relationships, and close sales deals.",
     "requirements": "Bachelor's degree in Business or related field, previous sales experience preferred.",
     "contact": {

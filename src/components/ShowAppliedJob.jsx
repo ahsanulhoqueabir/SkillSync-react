@@ -19,7 +19,7 @@ const ShowAppliedJob = ({ job }) => {
   } = job;
   return (
     <div className="p-3 bg-cyan-50 rounded-lg flex gap-5 justify-between items-center">
-      <div className="flex gap-5">
+      <div className="flex gap-5 items-center">
         <div>
           <img className="bg-gray-100 p-2 h-28 w-36" src={logo} alt="" />
         </div>

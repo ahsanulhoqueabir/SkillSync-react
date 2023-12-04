@@ -9,8 +9,9 @@ import Blog from "./components/Blog.jsx";
 import Home from "./components/Home.jsx";
 import { AllData } from "./utilities/function.js";
 import ShowJobDetails from "./components/ShowJobDetails.jsx";
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import BlogDetails from "./components/BlogDetails.jsx";
 
 const route = createBrowserRouter([
   {
@@ -25,7 +26,7 @@ const route = createBrowserRouter([
       {
         path: "job/:title",
         element: <ShowJobDetails />,
-        loader: (params)=>params
+        loader: (params) => params,
       },
       {
         path: "statistics",
@@ -38,13 +39,19 @@ const route = createBrowserRouter([
       {
         path: "blog",
         element: <Blog />,
+        // loader: ()=> fetch('https://raw.githubusercontent.com/ahsanul-database/fakeDB/main/blogP.json')
+      },
+      {
+        path: "blog/:title",
+        element: <BlogDetails />,
+        loader: (params) => params,
       },
     ],
   },
 ]);
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-     <ToastContainer />
+    <ToastContainer />
     <RouterProvider router={route}></RouterProvider>
   </React.StrictMode>
 );
