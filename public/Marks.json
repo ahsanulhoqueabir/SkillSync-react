@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Assignment 1",
+    "id": 1,
+    "obtain": 60
+  },
+  {
+    "name": "Assignment 2",
+    "id": 2,
+    "obtain": 59
+  },
+  {
+    "name": "Assignment 3",
+    "id": 3,
+    "obtain": 60
+  },
+  {
+    "name": "Assignment 4",
+    "id": 4,
+    "obtain": 58
+  },
+  {
+    "name": "Assignment 5",
+    "id": 5,
+    "obtain": 55
+  },
+  {
+    "name": "Assignment 6",
+    "id": 6,
+    "obtain": 56
+  },
+  {
+    "name": "Assignment 7",
+    "id": 7,
+    "obtain": 57
+  }
+]
