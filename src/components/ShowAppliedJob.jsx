@@ -18,10 +18,10 @@ const ShowAppliedJob = ({ job }) => {
     responsibility,
   } = job;
   return (
-    <div className="p-3 bg-cyan-50 rounded-lg flex gap-5 justify-between items-center">
-      <div className="flex gap-5 items-center">
+    <div className="p-3 bg-cyan-50 rounded-lg flex flex-col md:flex-row gap-5 justify-between items-center">
+      <div className="flex flex-col md:flex-row gap-5 items-center">
         <div>
-          <img className="bg-gray-100 p-2 h-28 w-36" src={logo} alt="" />
+          <img className="bg-gray-100 p-2 h-28 w-[100%] lg:w-36" src={logo} alt="" />
         </div>
         <div>
           <p className="font-bold leading-9	">{title}</p>
@@ -35,11 +35,11 @@ const ShowAppliedJob = ({ job }) => {
             </button>
           </div>
           <div className="flex gap-6">
-            <p className="text-lg text-gray-500 flex items-center gap-1">
+            <p className="lg:text-lg text-gray-500 flex items-center gap-1">
               {" "}
               <MapPinIcon className="h-4" /> {location}
             </p>
-            <p className="text-lg text-gray-500 flex items-center gap-1">
+            <p className="lg:text-lg text-gray-500 flex items-center gap-1">
               {" "}
               <CurrencyDollarIcon className="h-4" /> {salary}
             </p>

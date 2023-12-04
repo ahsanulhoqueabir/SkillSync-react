@@ -22,7 +22,7 @@ const Blog = () => {
           <Lottie animationData={dotani} className="h-36 lg:h-60"></Lottie>
         </div>
       </div>
-      <div className="py-10 lg:px-20 grid md:grid-cols-2 gap-6">
+      <div className="py-10 px-3 lg:px-20 grid md:grid-cols-2 gap-6">
         {blogs.map((blog) => (
           <SingleBlog key={blog.id} blog={blog} />
         ))}

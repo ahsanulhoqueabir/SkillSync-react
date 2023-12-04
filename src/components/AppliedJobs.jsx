@@ -42,18 +42,18 @@ const AppliedJobs = () => {
 
   return (
     <div className="">
-      <div className="relative flex items-center justify-center bg-slate-200 h-60  px-10">
-        <h1 className="text-5xl font-bold text-center py-10">Applied Jobs</h1>
-        <div className="absolute bottom-0 left-0 px-20">
-          <Lottie animationData={anim} className=" h-48"></Lottie>
+      <div className="relative flex items-center justify-center bg-slate-200 h-32 lg:h-60  px-10">
+        <h1 className="text-2xl lg:text-5xl font-bold text-center py-10">Applied Jobs</h1>
+        <div className="absolute bottom-0 left-0 px-3 lg:px-20">
+          <Lottie animationData={anim} className="h-20 lg:h-48"></Lottie>
         </div>
         <div className="absolute translate-x-1/2 opacity-40">
-          <Lottie animationData={dotani} className=" h-60"></Lottie>
+          <Lottie animationData={dotani} className="h-40 lg:h-60"></Lottie>
         </div>
       </div>
       <div>
         <div className="flex justify-center">
-          <h1 className="text-4xl font-bold text-center py-10">
+          <h1 className="text-2xl lg:text-4xl font-bold text-center py-10">
             {appliedJob.length === 0
               ? "You have not applied for any job yet"
               : "You have applied for " + appliedJob.length + " jobs"}

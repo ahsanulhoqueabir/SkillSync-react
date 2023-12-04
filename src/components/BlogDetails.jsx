@@ -35,7 +35,7 @@ const BlogDetails = () => {
         </div>
         <div >
             <img src={image} className="w-[75%] m-auto py-10" alt="" />
-            <p className="indent-10 text-justify text-xl tracking-normal leading-8">{description}</p>
+            <p className=" indent-4 lg:indent-10 text-justify text-xl tracking-normal lg:leading-8 leading-7">{description}</p>
         </div>
       </div>
       <div className="m-auto text-center py-10">
